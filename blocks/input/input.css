@@ -1,0 +1,11 @@
+.question-answer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--highlight-background-color);
+    padding: 2em;
+}
+
+.question-answer>textarea {
+    margin-top: 1em;
+}
